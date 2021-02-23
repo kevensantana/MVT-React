@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <ExperienceBar />
-
+ 
       <section>
         <div>
           <Profile />

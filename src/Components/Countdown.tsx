@@ -4,13 +4,13 @@ import styles from '../styles/components/Countdown.module.css';
 export function Countdown(){
     const [time, setTime] = useState(25 * 60);
     const [active, setActive] = useState(false);
-
+ 
     const minutes = Math.floor(time / 60);
     const seconds = time % 60;
-
+ 
     const [minuteLeft, minuteRight] = String(minutes).padStart(2, '0').split('');
     const [secondLeft, secondRight] = String(seconds).padStart(2, '0').split('');
-
+ 
     function startCountdown(){
         setActive(true);
     }

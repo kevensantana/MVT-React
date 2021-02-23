@@ -4,7 +4,7 @@ export function CompletedChallenges(){
     return(
         <div className={styles.CompletedChallengesContainer}>
             <span>Desafios completos</span>
-            <span> 5 </span>
+            <span> 5 </span> 
         </div>
     );
 }
